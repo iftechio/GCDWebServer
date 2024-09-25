@@ -30,6 +30,10 @@
 #import "GCDWebServerRequest.h"
 #import "GCDWebServerResponse.h"
 
+#import "GCDWebServerMultiPartFormRequest.h"
+#import "GCDWebServerErrorResponse.h"
+#import "GCDWebServerDataResponse.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
