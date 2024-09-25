@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "GCDWebServer",
+            type: .static,
             targets: ["GCDWebServer"]
         ),
     ],
