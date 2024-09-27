@@ -30,6 +30,11 @@
 #import <GCDWebServerRequest.h>
 #import <GCDWebServerResponse.h>
 
+// By Jike: This is the fix for header inport while compiling Jike app
+#import <GCDWebServerMultiPartFormRequest.h>
+#import <GCDWebServerErrorResponse.h>
+#import <GCDWebServerDataResponse.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 /**
